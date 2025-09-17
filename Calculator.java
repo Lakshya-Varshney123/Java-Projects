@@ -17,8 +17,11 @@ public class Calculator {
         else if( operator.equals("*")){
             System.out.println(" Multiplication of numbers is: " + (num1*num2));
         }
-        else{
-            System.out.print(" Division of numbers is: " + (num1/num2));
+        else if (operator.equals("/")) {
+            System.out.println(" Division of numbers is: " + (num1/num2));
+        }
+        else {
+            System.out.println(" Invalid Operation...");
         }
     }
 }
