@@ -14,6 +14,5 @@ public class MadlibsGame {
         System.out.println(" YOUR MADLIBS GAME IS.... ");
         System.out.println("One day," + " " + name +" " + "went to" + " " + place + ".It was a very" + " " + adjective + "day." + "Suddenly," + name + " " + "found a" + " " + noun + " " + "and laughed loudly!");
         in.close();
-
     }
 }
