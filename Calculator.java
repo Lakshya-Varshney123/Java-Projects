@@ -9,7 +9,7 @@ public class Calculator {
         System.out.print(" Choose the operator.... +, -, *, /: ");
         String operator = in.next();
         if ( operator.equals("+") ){
-            System.out.print(" Sum of numbers is: " + (num1+num2));
+            System.out.print(" Sum of numbers is: " + (num1+num2)); 
         }
         else if( operator.equals("-")){
             System.out.println(" Difference of numbers is: " + (num1-num2));
